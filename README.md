@@ -16,6 +16,9 @@ What is this for?
 The **PandaBoards** team is planning to release a public API for modification development, to allow our users to better extend their forums' features.
 This source code is provided for a reference to our internal code (sometimes merely method definitions are retained).
 
+As of the more recent revisions, we have also included more thorough parts of our code that was customized for better usage of CakePHP in our projects, and handy snippets of code that may serve as useful in your own CakePHP (and Twitter Bootstrap-based) projects - see the `View/Helper/IrisHelper.php` or `View/Helper/IrisIOHelper.php` for example.
+We hope that our contributions to the Open-Source community can benefit everyone.
+
 Your security sucks!
 -------------
 
