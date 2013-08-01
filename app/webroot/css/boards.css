@@ -1,0 +1,137 @@
+/**
+ * PandaBoards Forums CSS
+ * (c) 2012 Jimmie Lin
+ * 
+ * Free for use on all sites hosted on PandaBoards.
+ * Primary colors: Blue (2D7CBC, lighter: 328DD3); the rest are grayscale, mostly
+ */
+
+.category-box {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+	.category-box .category-content {
+		padding: 4px;
+		margin: 2px;
+
+		line-height: 20px;
+	}
+
+	.category {
+		background: #3598DE url(../img/blend-l.png) repeat-x top left;
+		padding: 6px;
+		color: #FFF;
+
+		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25);
+	}
+		.catend { display: none; /* line-height: 2px; background: #328DD3 url(../img/blend.png) repeat-x top left; */ } 
+
+		.category .title {
+			font-weight: bold;
+			font-size: 13px;
+		}
+
+		.category span {
+			font-size: 11px;
+		}
+
+	span.secondary { color: #aaa; font-size: 12px; line-height: 150%; }
+
+	.mod-list-index, .last-update-user, .last-update-date {
+		font-size: 12px;
+	}
+
+	.topicPreviewTdDiv {
+		font-size: 12px;
+		margin: 3px;
+		padding: 5px;
+		background: rgba(0, 0, 0, 0.7);
+		color: #fff;
+		display: none;
+
+		line-height: 200%;
+
+		position: absolute;
+		box-shadow: 2px 2px 8px #333;
+	}
+
+		.topicPreviewTdDiv .sep {
+			border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+			margin: 3px;
+		}
+
+		.topicPreviewTdDiv p {
+			margin-left: 15px;
+		}
+
+	.btn-group > .btn.inline {
+		float: none;
+	}
+
+
+	.category-table { width: 100%; border: 0 !important; }
+	.category-table th {
+		background: #f9f9f9;
+		text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+
+		text-align: left;
+		padding: 6px;
+	}
+
+		.reply-table-post-left, .reply-table-th-left {
+			border-right: 1px solid #ccc;
+		}
+
+		.reply-table-post-left .btn-uname {
+			width: 60%;
+			text-align: left;
+		}
+
+		.reply-table-th-left, .reply-table-th-right { border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+
+		.reply-table-bottom-bar { border-top: 1px solid #ddd; background: #f9f9f9; }
+
+	.category-table td {
+		text-align: left;
+		padding: 6px;
+
+		vertical-align: top;
+	}
+
+	.category-table td p {
+		line-height: 20px;
+	}
+
+.userInfobox {
+	padding: 4px;
+	margin: 2px;
+	line-height: 200%;
+	font-size: 12px;
+
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.footerStats {
+	font-size: 12px;
+	line-height: 200%;
+	text-align: center;
+}
+
+	.footerStats a { color: inherit; }
+
+.padded {
+	padding: 12px;
+}
+
+/**
+ * User Avatars
+ */
+.avatar {
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.post-content-td { line-height: 170%; }

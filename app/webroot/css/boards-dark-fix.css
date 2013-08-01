@@ -1,0 +1,25 @@
+/**
+ * PandaBoards Forums CSS - Dark Themes Specific Fix
+ * (c) 2012 Jimmie Lin
+ * 
+ * Free for use on all sites hosted on PandaBoards.
+ * Does not handle layout: It only changes colors when necessary for dark themes. Should be partially universal as it's grayscale
+ */
+
+	.category-table th {
+		background: transparent;
+		background: rgba(255, 255, 255, 0.1);
+		text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+	}
+
+		.reply-table-post-left, .reply-table-th-left {
+			border-right: 1px solid #424242;
+		}
+
+		.reply-table-th-left, .reply-table-th-right { border-top: 1px solid #424242; border-bottom: 1px solid #424242; }
+
+		.reply-table-bottom-bar { border-top: 1px solid #424242; background: transparent; background: rgba(255, 255, 255, 0.1); }
+
+.userInfobox {
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
+}
